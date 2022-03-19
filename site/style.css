@@ -1,0 +1,256 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+*{
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.second_nav{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 20px 0  #c6d0bf;
+}
+
+.second_nav ul{
+    display: flex;
+}
+
+.second_nav li{
+    display: inline;
+    margin: 35px;
+}
+
+.second_nav a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.first_section{
+    display: flex;
+}
+
+.box_first_section{
+    width: 40%;
+    height: 70%;
+    background-color: #ffffff;
+    box-shadow: 0 20px 20px 20px #c6d0bf;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.box_first_section h2, h1, p, button{
+    margin: 50px 10px 50px 10px;
+}
+
+.box_first_section h1{
+    font-size: 35px;
+}
+
+.box_first_section button{
+    background: transparent;
+    padding: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.first_section img{
+    margin-top: 5%;
+}
+
+
+
+
+/* ------------ Second Section ------------- */
+
+.second_section{
+    margin-top: 8%;
+    text-align: center;
+    background-color: #d9e0d4;
+    border-bottom: 2px solid gray;
+}
+
+.second_section h1{
+    padding: 2% 0 5% 0;
+    font-size: 30px;
+}
+
+.div_second_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_about_pillow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box_about_pillow div{
+    margin: 20px;
+    text-align: left;
+}
+
+
+.box_about_pillow .dimensions .inside_dimensions{
+    display: flex;
+   margin: 0;
+}
+
+
+
+
+/* ------------- third section ---------- */
+
+
+.third_section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.third_section .first_text{
+    text-align: center;
+    width: 50%;
+}
+
+.third_section .second_text{
+    text-align: center;
+    width: 50%;
+}
+
+.third_section h2{
+    margin: 10%;
+}
+
+.third_section p{
+    margin: 0 2% 0 2%;
+}
+
+.third_section .first_image{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.third_section .second_image{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+
+/* -------- four section ---------- */
+
+.four_section{
+    background: url(four_image.jpg) no-repeat center; 
+    background-size: cover;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four_section .content{
+    margin: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four_section .text{
+    text-align: center;
+    background-color: #c6d0bf;
+    opacity: 0.7;
+    border-radius: 15px;
+    margin: 2%;
+}
+
+.four_section .text p{ 
+    margin: 0;
+    font-weight: bold;
+}
+
+.four_section .text button{
+    padding: 3%;
+    background-color: #cdb565;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* ultima */
+
+
+.ultima{
+    display: flex;
+}
+
+.ultima .text_ultima{
+    text-align: center;
+    width: 50%;
+    margin: 2%;
+}
+
+.ultima .text_ultima button{
+    padding: 3%;
+    background-color: #cdb565;
+    width: 50%;
+    cursor: pointer;
+}
+
+.ultima .info{
+    text-align: center;
+    width: 50%;
+    margin: 2%;
+}
+
+.ultima .info input{
+    padding: 10px;
+    outline: none;
+    width: 50%;
+}
+
+.ultima .info button{
+    padding: 10px;
+    background-color: #3f475a;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.ultima .info ul{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.ultima .info li{
+    display: inline;
+    margin: 3%;
+}
+
+.ultima .info a{
+    color: black;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #3f475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p, a{
+    color: #ffffff;
+}
